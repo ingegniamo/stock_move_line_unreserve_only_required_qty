@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "Unreserve only required quantity if more than availability",
     
     'summary': "",
   
@@ -10,12 +10,12 @@
 
     'category': '',
   
-    'version': '16.0.0.1',
+    'version': '14.0.0.1',
   
     'website': "http://www.stesi.consulting",
 
     # any module necessary for this one to work correctly
-    'depends': [],
+    'depends': ['stock'],
     
     # always loaded
     'data': [],
